@@ -1,9 +1,9 @@
 <!DOCTYPE html>
  <html>
   <head>
-      <title>Syrinx Makes Movies</title> 
+      <title>Laserbeam Productions</title> 
       <meta charset="UTF-8">
-      <meta name="author" content="Syrinx">
+      <meta name="author" content="Nyx">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" href="favicon-32.png">
       <style>
@@ -14,6 +14,15 @@
           .main {
               color:#1b1c1b;
               text-align:center;
+          }
+          .logo {
+              position: relative;
+              display: block;
+              height: 45vw;
+              top: 60px;
+              margin: 0 auto;
+              text-align: center;
+              z-index: -1;
           }
           .video {
               display:block;
@@ -53,6 +62,16 @@
           a {
               color:#1e1e1e;
           }
+          .future {
+              font-family: AstronBoyWonder;
+              font-size: 55px;
+              font-weight: bold;
+              color: black;
+            }
+          @font-face {
+              font-family: AstronBoyWonder;
+              src: url(font/AstronBoyWonder.ttf) format("opentype");
+          }
       </style>
   </head>
   <body>
@@ -65,27 +84,29 @@
           </ul>
       </nav>
       <span class="main">
-          <h1 id="home" style="padding-top: 40px;">About</h1>
+          <img class="logo" id="home" src="warning-16.svg">
+          <p class="future">lazerbeam productions</p>
+          <h1>About</h1>
           <p>I am a student pursuing a career in the film industry. I love everything from making short films to advertisements to music videos</p>
           <p>I have been involved with a Student Emmy nominated project and I plan on submitting more in the future.</p>
           <br>
           <h1 id="work">Projects</h1>
           <iframe class="video" sandbox="allow-same-origin allow-scripts allow-popups" src="https://player.vimeo.com/video/498597324" frameborder="0" allowfullscreen></iframe>
           <p>A sampler of some of my recent projects</p>
-          <img src="/thumbnail/afterwardsthumb.png" class="video">
+          <img src="thumbnail/afterwardsthumb.png" class="video">
           <p>Coming soon: Afterwards, an original short film</p>
-          <img src="/thumbnail/nbthumbnail.png" class="video">
+          <img src="thumbnail/nbthumbnail.png" class="video">
           <p>Coming less soon: A currently untitled short film project</p>
           <br>
           <h1 id="skills">Skills</h1>
-           <p>I have used a wide variety of cameras, from 1960s 35mm film Argus units to modern Canon and Nikon devices.</p>
-           <p>I edit videos with Resolve and occasionally Kdenlive. I also know how to use FCPX and the Adobe Suite</p>
+           <p>I have used a wide variety of cameras, from 1960s 35mm Argus units to modern Canon, Nikon and Sony devices.</p>
+           <p>I primarily edit videos with Resolve, however I also know how to use FCPX and the Adobe Suite</p>
            <p>I have experience live streaming events using both OBS Studio and a Tricaster</p>
            <br>
            <h1 id="contact">Contact</h1>
-           <p>If you are interested in commissioning a video, I can be reached via email at <a href="mailto:syrinx@inventati.org">syrinx@inventati.org</a></p>
+           <p>If you are interested in commissioning a video, I can be reached via email at <a href="mailto:nyx@subvertising.org">nyx@subvertising.org</a></p>
            <br>
-           <p style="font-size: xx-small;">The site contains 100% hand crafted HTML & CSS. No javascript, no analytics, minimal fluff. If you want a website like this, contact me and I can make one for you</p>
+           <p style="font-size: xx-small;">The site contains 100% organic, gluten-free, hand crafted HTML & CSS. No analytics, minimal fluff. If you want a website like this, contact me and I can make one for you</p>
       </span>
   </body>
 </html>
