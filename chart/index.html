@@ -1,21 +1,5 @@
 <script src="chart.js"></script>
-
-<canvas id="myChart" width="400" height="400"></canvas>
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-   const config = {
-  type: 'radar',
-  data: data,
-  options: {
-    elements: {
-      line: {
-        borderWidth: 3
-      }
-    }
-  },
-};
-   const data = {
+const data = {
   labels: [
     'Eating',
     'Drinking',
@@ -47,8 +31,27 @@ var myChart = new Chart(ctx, {
     pointHoverBorderColor: 'rgb(54, 162, 235)'
   }]
 };
+
+
+
+const config = {
+  type: 'radar',
+  data: data,
+  options: {
+    elements: {
+      line: {
+        borderWidth: 3
+      }
+    }
+  },
+};
+
+
+<script>
+  // === include 'setup' then 'config' above ===
+
+  var myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
 </script>
-
- 
-
- 
