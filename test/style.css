@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Oxanium';
+    src: url('font/Oxanium-VariableFont_wght.ttf');
+  }
+
+html, body {
+    margin:0px;
+    font-family: Oxanium;
+    text-align: center;
+  }
+
+.mainLogo {
+    margin: 0 auto;
+    padding-top: 250px;
+}
+
+.mainTitle {
+    font-weight: bolder;
+    font-size:50px;
+}
+
+.curved-div {
+    background: #25014b;
+    color: #FFF;
+    width: 100vw;
+  }
+
+  .curved-div svg {
+    display: block;
+  }
