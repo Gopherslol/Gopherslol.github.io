@@ -1,119 +1,64 @@
 <!DOCTYPE html>
- <html>
+<html lang="en-US">
   <head>
-      <title>Laserbeam Productions</title> 
-      <meta charset="UTF-8">
-      <meta name="author" content="Nyx">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" href="favicon-32.png">
-      <style>
-          body {
-              background-color:#e8e8e8;
-              font-family: sans-serif;
-          }
-          .main {
-              color:#1b1c1b;
-              text-align:center;
-          }
-          .logo {
-              position: relative;
-              display: block;
-              height: 45vw;
-              top: 60px;
-              margin: 0 auto;
-              text-align: center;
-              z-index: -1;
-          }
-          .video {
-              display:block;
-              margin:0 auto;
-              box-shadow:0px 0px 10px grey;
-              width:560px;
-              max-width: 90vw;
-              height:315px;
-              max-height:50.625vw;
-          }
-          .poster {
-              display:block;
-              margin:0 auto;
-              box-shadow:0px 0px 10px grey;
-              width:560px;
-              max-width: 90vw;
-          }
-          ul {
-            background-color:#1e1e1e;
-            margin:0;
-            padding:0;
-            position:fixed;
-            left:0;
-            top:0;
-            width:100%;
-            box-shadow:0px 5px 10px grey;
-          }
-          li {
-              float:left;
-              list-style:none;
-          }
-          li a{
-              display:block;
-              text-align:center;
-              padding:14px 12px;
-              text-decoration:none;
-              color:#e8e8e8;
-              
-          }
-          li a:hover {
-              background-color:#e8e8e8;
-              color:#1b1c1b;
-          }
-          a {
-              color:#1e1e1e;
-          }
-          .future {
-              font-family: AstronBoyWonder;
-              font-size: 55px;
-              font-weight: bold;
-              color: black;
-            }
-          @font-face {
-              font-family: AstronBoyWonder;
-              src: url(font/AstronBoyWonder.ttf) format("opentype");
-          }
-      </style>
-  </head>
-  <body>
-      <nav>
-          <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#work">My Work</a></li>
-              <li><a href="#skills">My Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
-          </ul>
-      </nav>
-      <span class="main">
-          <img class="logo" id="home" src="warning-16.svg">
-          <p class="future">laserbeam productions</p>
-          <h1>About</h1>
-          <p>I am a student pursuing a career in the film industry. I love everything from making short films to advertisements to music videos</p>
-          <p>I have been involved with a Student Emmy nominated project and I plan on submitting more in the future.</p>
-          <br>
-          <h1 id="work">Projects</h1>
-          <a href="https://www.imdb.com/title/tt14432280/"><img src="inamorata.jpeg" class="poster"></img></a>
-          <p>Colorist for the short film <a href="https://www.imdb.com/title/tt14432280/">Inamorata</a></p>
-          <iframe class="video" style="height:300px" src="https://player.vimeo.com/video/602038253?badge=0;autopause=0;player_id=0" frameborder="0" allow=fullscreen; picture-in-picture" allowfullscreen title="Meadowdrama Promo"></iframe>
-          <p>My first published short film</p>
-          <iframe class="video" style="height:420px; max-height: 67.5vw;" src="https://player.vimeo.com/video/528685096?badge=0;autopause=0;player_id=0" frameborder="0" allow=fullscreen; picture-in-picture" allowfullscreen title="Meadowdrama Promo"></iframe>
-          <p>A promotional video for a local author</p>
-          <br>
-          <h1 id="skills">Skills</h1>
-           <p>Operation of a wide variety of cameras, from 1960s 35mm Argus units to modern Canon, Nikon and Sony devices.</p>
-           <p>Editing in Resolve, FCPX and the Adobe Suite</p>
-           <p>Live streaming using Tricasters, OBS Studio and vMix</p>
-           <br>
-           <h1 id="contact">Contact</h1>
-           <p>If you are interested in commissioning a video, I can be reached via email at <a href="mailto:nyx@laserbeam.productions">nyx@laserbeam.productions</a></p>
-           <br>
-           <p style="font-size: xx-small;">The site contains 100% organic, gluten-free, hand crafted HTML & CSS. No analytics, minimal fluff.</p>
-      </span>
-  </body>
-</html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Malleck Braun">
+    <meta name="description" content="Homepage for Laserbeam Productions">
+    <meta property="og:image" content="https://laserbeam.productions/img/small/g39307.png">
+    <meta property="og:description" content="Homepage for Laserbeam Productions">
+    <meta property="og:title" content="Laserbeam Productions">
+    <link rel="icon" href="img/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>Laserbeam Productions</title>
+
+    </head>
+    <body>
+        <div class="curved-div" style="background-color: #25014b;">
+            <img src="img/svg/main.svg" class="mainLogo">
+            <p class="mainTitle">Laserbeam Productions</p>
+            <nav class="navbar">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 310"><path fill="#8223b5" fill-opacity="1" d="M0,160L80,160C160,160,320,160,480,170.7C640,181,800,203,960,192C1120,181,1280,139,1360,117.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </div>
+        <div class="curved-div" style="background-color: #8223b5; margin-top: -22px;">
+            <h1 id="about">About</h1>
+            <p>I am a student who is studying at Peninsula College in order to get an associate's degree before going to film school. I am passionate about working with video and would love the opportunity to work on your project.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5a53bd" fill-opacity="1" d="M0,32L80,42.7C160,53,320,75,480,85.3C640,96,800,96,960,117.3C1120,139,1280,181,1360,202.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </div>
+        <div class="curved-div" style="background-color: #5a53bd; margin-top: -22px;">
+            <h1 id="services">Services</h1>
+            <p>I offer videography, video editing, color grading and live streaming<br>This means that I can make an ad for your small business, broadcast your event to the world or put the finishing touches on your short film</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#543694" fill-opacity="1" d="M0,224L80,197.3C160,171,320,117,480,96C640,75,800,85,960,80C1120,75,1280,53,1360,42.7L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </div>
+        <div class="curved-div" style="background-color: #543694; margin-top: -22px;">
+            <h1 id="work">My Work</h1>
+            <br>
+            <img src="img/poster/inamorata.jpeg" class="poster">
+            <p>Colorist for Inamorata<br><a href="https://www.imdb.com/title/tt14432280/">IMDb</a><br><a href="https://vimeo.com/641343118">Vimeo</a></p>
+            <br>
+            <br>
+            <iframe class="video4-3" src="https://player.vimeo.com/video/528685096?badge=0;autopause=0;player_id=0" frameborder="0" allow=fullscreen; picture-in-picture" allowfullscreen title="Meadowdrama Promo"></iframe>
+            <p>Videographer/editor for this promo for a local author</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#25014b" fill-opacity="1" d="M0,256L80,234.7C160,213,320,171,480,160C640,149,800,171,960,181.3C1120,192,1280,192,1360,192L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </div>
+        <div class="curved-div" style="background-color: #25014b; margin-top: -22px;">
+            <h1 id="contact">Contact</h1>
+            <a href="mailto:nyx@laserbeam.productions"><img src="img/svg/email.svg" style="width: 60px;"><br>nyx@laserbeam.productions</a>
+            <br>
+            <br>
+            <a href="https://social.laserbeam.productions/@nyx" rel="me"><img src="img/svg/mastodon.svg" style="width: 60px;"><br>@nyx</a>
+            <br>
+            <br>
+            <br>
+            <p>This site is made with 100% organic, gluten free, handcrafted HTML and CSS</p>
+
+        </div>
+    </body>
