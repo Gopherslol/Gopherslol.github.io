@@ -1,0 +1,132 @@
+@font-face {
+	font-family: "RockSalt";
+	src: url(font/RockSalt-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Itim";
+	src: url(font/Itim-Regular.ttf);
+}
+
+
+body {
+	font-family: "Itim";
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	font-family: RockSalt;
+}
+
+.panel1 {
+	display: flex;
+	flex-direction: column;
+	color: #000100;
+	background-color: #FFC857;
+}
+
+.panel2 {
+	display: flex;
+	flex-direction: row;
+	background: #119DA4;
+	color: #fffeff;
+	text-align: center;
+	padding: 5vw;
+	justify-content: space-around;
+	padding: 5vw;
+	align-items: center;
+}
+
+.panel2 a {
+	color: #fffeff;
+}
+
+.panel2 > div{
+	margin: 2vw;
+}
+
+
+@media (max-width: 800px) {
+  .panel2 {
+    flex-direction: column;
+  }
+}
+
+.panel3 {
+	display: flex;
+	flex-direction: row;
+	background: #4B3F72;
+	color: #fffeff;
+	text-align: center;
+	padding: 5vw;
+	justify-content: space-around;
+	padding: 5vw;
+	align-items: center;
+}
+
+.panel3 a {
+	color: #fffeff;
+}
+
+.panel3 > div{
+	margin: 2vw;
+}
+
+
+@media (max-width: 800px) {
+  .panel3 {
+    flex-direction: column;
+  }
+}
+
+.panel4 {
+	display: flex;
+	flex-direction: row;
+	background: #19647E;
+	color: #fffeff;
+	text-align: center;
+	padding: 5vw;
+	justify-content: space-around;
+	padding: 5vw;
+	align-items: center;
+}
+
+.panel4 a {
+	color: #fffeff;
+}
+
+.panel4 > div{
+	margin: 2vw;
+}
+
+
+@media (max-width: 800px) {
+  .panel4 {
+    flex-direction: column;
+  }
+}
+
+.mainImg {
+	width:  70vw;
+	margin: 0 auto;
+}
+
+.videoContainer iframe{
+	width: 40vw;
+	height: 30vw;
+}
+
+@media (max-width: 800px) {
+	.videoContainer iframe{
+		width: 80vw;
+		height: 60vw;
+	}
+}
+
+.textBlock {
+
+}
+
